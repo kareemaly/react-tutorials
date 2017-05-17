@@ -6,25 +6,15 @@ injectGlobal`
   body {
     height: 100%;
     width: 100%;
-  }
-
-  body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  }
-
-  body.fontLoaded {
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
   }
 
   #app {
-    background-color: #fafafa;
     min-height: 100%;
     min-width: 100%;
   }
 
-  p,
-  label {
-    font-family: Georgia, Times, 'Times New Roman', serif;
-    line-height: 1.5em;
+  h1, h2, h3, h4, h5, h6, p, a, li, span {
+    margin: 0;
   }
 `;
